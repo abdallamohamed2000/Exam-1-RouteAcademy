@@ -1,0 +1,141 @@
+/* nav */
+
+@media (max-width: 991.98px) {
+    .mynav ul li a::before {
+        left: 0;
+    }
+    nav ul li a:hover::before {
+        width: 8%;
+    }
+    body:not(:has(:target)).home-link::before,
+    body:has(.home:target) .home-link::before,
+    body:has(.about:target) .about-link::before,
+    body:has(.services:target) .services-link::before,
+    body:has(.portfolio:target) .portfolio-link::before,
+    body:has(.client:target) .client-link::before,
+    body:has(.team:target) .team-link::before,
+    body:has(.contact:target) .contact-link::before {
+        width: 8%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .mynav ul li a::before {
+        left: 0;
+    }
+    nav ul li a:hover::before {
+        width: 12%;
+    }
+    body:not(:has(:target)).home-link::before,
+    body:has(.home:target) .home-link::before,
+    body:has(.about:target) .about-link::before,
+    body:has(.services:target) .services-link::before,
+    body:has(.portfolio:target) .portfolio-link::before,
+    body:has(.client:target) .client-link::before,
+    body:has(.team:target) .team-link::before,
+    body:has(.contact:target) .contact-link::before {
+        width: 12%;
+    }
+}
+
+@media (max-width: 400px) {
+    .mynav ul li a::before {
+        left: 0;
+    }
+    nav ul li a:hover::before {
+        width: 16%;
+    }
+    body:not(:has(:target)).home-link::before,
+    body:has(.home:target) .home-link::before,
+    body:has(.about:target) .about-link::before,
+    body:has(.services:target) .services-link::before,
+    body:has(.portfolio:target) .portfolio-link::before,
+    body:has(.client:target) .client-link::before,
+    body:has(.team:target) .team-link::before,
+    body:has(.contact:target) .contact-link::before {
+        width: 16%;
+    }
+}
+
+
+/* header */
+
+@media (max-width: 575.98px) {
+    header .caption h5 {
+        font-size: 1.5625rem;
+    }
+    header .caption h1,
+    header .caption span {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    header .caption h1,
+    header .caption span {
+        font-size: 28px;
+    }
+}
+
+
+/* about */
+
+@media (max-width: 575.98px) {
+    .general-padding {
+        padding: 2.1875rem 0 3.1875rem 0;
+    }
+    .content {
+        margin-top: 3rem;
+    }
+}
+
+
+/* testimonial */
+
+@media (max-width: 991.98px) {
+    .max-width {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .max-width {
+        width: 22rem;
+    }
+    .client .carousel-inner blockquote p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .max-width {
+        width: 17rem;
+    }
+    .client .carousel-inner blockquote p {
+        font-size: 10px;
+    }
+}
+
+
+/* portfolio */
+
+@media (max-width: 400px) {
+    .portfolio button {
+        font-size: 12px;
+    }
+}
+
+
+/* portfolio */
+
+@media (max-width: 575.98px) {
+    .rowNum {
+        row-gap: 25px;
+    }
+    .numbers .icon {
+        margin-bottom: 10px;
+    }
+    .numbers h3 {
+        margin-bottom: 10px;
+    }
+}
